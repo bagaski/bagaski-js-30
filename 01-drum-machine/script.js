@@ -8,10 +8,15 @@
 }
 
 function removeTransition(e) {
+<<<<<<< HEAD
   /*if (e.propertyName !== 'transform') return;
 
 */key.classList.remove('playing');
 console.log('Transition ended');
+=======
+  if (e.propertyName !== 'transform') return;
+  this.classList.remove('playing');
+>>>>>>> 2bea8999941a3b4a49b762dfbc46bf0a6e63553a
 }
 
 const keys = document.querySelectorAll('.key');
