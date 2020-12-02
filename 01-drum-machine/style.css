@@ -24,7 +24,7 @@ body {
   height: 60px;
   align-items: center;
   color: #20043c;
-  transition: all .07s ease;
+  transition: all 1s ease;
 }
 
 .key span {
