@@ -2,19 +2,22 @@
 
 body {
   background-color: #333666;
-  box-sizing: border-box;
+
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bold;
+
 }
 
 .keys {
+
   margin-top: 40vh;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto;
   justify-content: center;
+
 }
 
 .key {
+
   display: flex;
   flex-direction: column;
   border: 1px solid #20043c;
@@ -23,16 +26,22 @@ body {
   width: 80px;
   height: 60px;
   align-items: center;
-  color: #20043c;
-  transition: all 1s ease;
+  color: #200400;
+  transition: all 0.5s;
+
 }
 
-.key span {
+.sound {
   font-size: 10px;
   text-transform: uppercase;
+
 }
 
+
 .playing {
+
   transform: scale(1.1);
   background-color: #33cdac;
+  border: 1px solid #200400;
+
 }
