@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
 body {
   background-color: lemonchiffon;
+  font-family: Raleway;
+  background-color: blue;
 }
 
 .clock {
-  background-color: #9912ff;
+  background-color: white;
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -12,11 +16,11 @@ body {
 
 .hand-sec {
   position: relative;
-  top: 50%;
+  top: 48%;
   left: 5%;
-  background-color: black;
+  background-color: blue;
   width: 45%;
-  height: 2px;
+  height: 5px;
   transform-origin: 100%;
   transform: rotate(0deg);
   transition: all 0.5s infinite;
@@ -27,24 +31,32 @@ body {
   position: relative;
   top: 50%;
   left: 10%;
-  background-color: red;
+  background-color: blue;
   width: 40%;
-  height: 2px;
+  height: 5px;
   transform-origin: 100%;
-  transform: rotate(40deg);
+  transform: rotate(0deg);
   transition: all 0.5s infinite;
   transition-timing-function: ease-in-out;
 }
 
 .hand-hr {
   position: relative;
-  top: 50%;
+  top: 51%;
   left: 20%;
-  background-color: yellow;
+  background-color: blue;
   width: 30%;
-  height: 2px;
+  height: 5px;
   transform-origin: 100%;
   transform: rotate(0deg);
   transition: all 0.5s infinite;
   transition-timing-function: ease-in-out;
+}
+
+.digit-clock {
+  position: absolute;
+  font-size: 46px;
+  left: 40px;
+  top: 40px;
+  color: white;
 }
