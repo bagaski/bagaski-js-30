@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <title>Control CSS variables with JS</title>
   </head>
   <body>
-
+    <main class="container">
+      <section class="controls">
+        <h1>Edit the image display</h1>
+        <form class="inputs">
+          <label for="blur">Blur:</label>
+          <input type="range" name="blur" value="">
+          <label for="colors">Color:</label>
+          <input type="color" name="colors" value="">
+          <label for="space">Spacing</label>
+          <input type="range" name="space" value="">
+        </form>
+      </section>
+      <section class="display">
+        <div class="card">
+          <img src="image-tpde.jpg" alt="photo of a man does not exist" width="50%">
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>

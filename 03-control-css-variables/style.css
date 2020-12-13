@@ -1,5 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,600;0,900;1,500&family=Castoro&family=Langar&family=Questrial&display=swap');
+
+
+/*
+font-family: 'Bitter', serif;
+
+font-family: 'Castoro', serif;
+
+font-family: 'Langar', cursive;
+
+font-family: 'Questrial', sans-serif;
+*/
+
 :root {
-  --monochrome: #f90000;
-  --spacing: 10px;
+  --monochrome: blue;
+  --spacing: 50px;
   --blur: 10px;
+  --font: 'Bitter', serif;
+}
+
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.display {
+  width: 50vw;
+  height: 100vh;
+  background-color: #555;
+  border: var(--spacing) solid var(--monochrome);
+}
+
+.controls {
+  width: 50vw;
+  height: 100vh;
+  background-color: #ddd;
+  font-family: var(--font);
+  padding: var(--spacing);
+}
+
+.controls h1 {
+  color: var(--monochrome);
+}
+
+.inputs {
+
 }
