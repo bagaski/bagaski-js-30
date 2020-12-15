@@ -2,10 +2,13 @@
 
 const selectColor = document.querySelectorAll('input')[1]
 const h1 = document.querySelector('h1');
+const display = document.querySelector('.display');
 
 
 function updateColor(e) {
   h1.style.color = e.target.value;
+  display.style.borderColor = e.target.value;
+  display.style.backgroundColor = e.target.value
   console.log(e.target.value)
 }
 
