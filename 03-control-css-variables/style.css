@@ -41,6 +41,7 @@ img {
   margin-right: auto;
   margin-top: 0px;
   width: 50vw;
+  filter: blur();
 }
 
 .controls {
